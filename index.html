@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop</title>
     <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
 <body>
 
 
-    <div class="container">
-        <div class="row">
-            <div class="col-3 display-1 p-3 border bg-purp text-white">Hello World!!! Nu.1</div>
-            <div class="col-3 display-1 p-3 border bg-purp text-white">Hello World!!! Nu.2</div>
-            <div class="col-3 display-1 p-3 border bg-purp text-white">Hello World!!! Nu.3</div>
-            <div class="col-3 display-1 p-3 border bg-purp text-white">Hello World!!! Nu.4</div>
+    <section class="container-fluid banner d-flex justify-content-center align-items-center">
+        <video autoplay loop muted src="./src/assests/video/Nike. Just Do It. Nike VN_2.mp4"
+            class="position-absolute top-0 start-0 w-100 h-100 bg-image">
+        </video>
+
+        <div class="container position-relative z-1 text-center">
+            <h1 class="display-3 text-white">Welcome to <span class="display-1 text-success">Danial Shop</span></h1>
+            <p class="text-white muted">You can see our Products by clicking on START button</p>
+            <button class="button" data-text="Awsome">
+                <span class="actual-text">&nbsp;START&nbsp;</span>
+                <span aria-hidden="true" class="hover-text">&nbsp;START&nbsp;</span>
+            </button>
         </div>
-    </div>
+
+    </section>
 
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js/"></script>
